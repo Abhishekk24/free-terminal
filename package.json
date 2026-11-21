@@ -1,0 +1,22 @@
+{
+  "name": "free-terminal",
+  "version": "0.1.0",
+  "description": "Five market-terminal functions on free public data: a macro dashboard, the yield curve, company fundamentals, S&P history since 1871 and a test of Faber's 10-month rule. No API keys.",
+  "license": "MIT",
+  "author": "Abhishek Jadhav",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "free-terminal": "bin/free-terminal.mjs"
+  },
+  "files": [
+    "bin",
+    "src"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test"
+  }
+}
